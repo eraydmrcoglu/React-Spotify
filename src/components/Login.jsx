@@ -5,7 +5,7 @@ export default function Login() {
   const handleClick = async () => {
     const client_id = "48d710f54e084afe8180dfc15560f24d";
     //const redirect_uri = "http://localhost:3000/callback";
-    const redirect_uri = "https://spotify-clone-eta-seven.vercel.app/";
+    const redirect_uri = "https://spotify-clone-eta-seven.vercel.app";
     const api_uri = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-private",
